@@ -15,6 +15,12 @@ var Animate = function() {
             else if(revealElements[i].classList.contains('slide-in-right')) {
                 revealElements[i].classList.add("reveal--slide-in-right");
             }
+            else if(revealElements[i].classList.contains('zoom-in')) {
+                revealElements[i].classList.add("reveal--zoom-in");
+            }
+            else if(revealElements[i].classList.contains('rotate-in')) {
+                revealElements[i].classList.add("reveal--rotate-in");
+            }
         
         }   
     }

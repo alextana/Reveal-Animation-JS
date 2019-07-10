@@ -1,13 +1,22 @@
 # Reveal-Animation-JS
 Simple Vanilla JS Reveal Animation Plugin I use for my projects
 ## How to Use
-Using this plugin is very simple, you just need to reference both the javascript and the css files into your document and assign one of these classes to the items you want to animate
+Using this plugin is very simple, you just need to reference both the javascript and the css files into your document and assign **reveal--onscroll** plus one of these classes to the items you want to animate
 
 * fade-in
 * slide-in-left
 * slide-in-right
+* zoom-in
+* rotate-in
 
-These are all the animations supported at the moment.
+*Example of an HTML use case*
+
+```html
+ <div class="item reveal--onscroll zoom-in">
+                    <h1>Zoom in</h1>
+                </div>
+```
+
 
 ## Customisation
 
