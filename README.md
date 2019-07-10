@@ -18,6 +18,6 @@ You're welcome to get the script and play with it, it's really easy to add anima
                 revealElements[i].classList.add("reveal--slide-in-left");
 ```
 
-
+The first one will be the one you add to your HTML file and the second one would be the one in the .css file, which would be the actual animation.
 
 
