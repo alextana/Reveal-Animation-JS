@@ -1,5 +1,5 @@
 # Reveal-Animation-JS
-Simple Vanilla JS Reveal Animation Plugin I use for my projects
+Simple Vanilla JS Reveal Animation Plugin 
 ## How to Use
 Using this plugin is very simple, you just need to reference both the javascript and the css files into your document and assign **reveal--onscroll** plus one of these classes to the items you want to animate
 
@@ -27,6 +27,6 @@ You're welcome to get the script and play with it, it's really easy to add anima
                 revealElements[i].classList.add("reveal--slide-in-left");
 ```
 
-The first one will be the one you add to your HTML file and the second one would be the one in the .css file, which would be the actual animation.
+The first one will be the one you add to your HTML file and the second one would be the one in the **animations.css** file, which would be the actual animation.
 
 
