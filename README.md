@@ -9,10 +9,10 @@ Using this plugin is very simple, you just need to reference both the javascript
 * zoom-in
 * rotate-in
 
-**Example of an HTML use case**
+**HTML Example**
 
 ```html
- <div class="item reveal--onscroll zoom-in">
+ <div class="reveal--onscroll zoom-in">
     <h1>Zoom in</h1>
  </div>
 ```
