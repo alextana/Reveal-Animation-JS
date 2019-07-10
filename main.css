@@ -9,28 +9,39 @@ h1 {
     color: white;
     text-shadow: 0px 1px 1px #000;
 }
-.reveal--onscroll {
+.section--main {
     height: 70vh;
 }
 
+.section--main:nth-child(odd) {
+    background:#26262B;
+}
+
+.section--main:nth-child(even) {
+    background: #36393E;
+}
+
 .reveal--fade-in {
-    background: orange;
-    transition: 2s ease-in-out;
+    opacity: 0;
+    animation: fadeIn 2s forwards;
+}
+
+@-webkit-keyframes fadeIn {
+100% { opacity:1; }
+}
+
+@keyframes fadeIn {
+100% {opacity:1; }
 }
 
 .text-center {text-align: center;}
 
 
 
-.is--visible {
-    display: block;
-    background: orange;
-    transition: 2s ease-in-out;
-}
 
 .reveal--slide-in-left {
 transform:translateX(-100%);
-background: blue;
+
 position: relative;;
 animation: slide 2s forwards;
 }
@@ -45,7 +56,6 @@ animation: slide 2s forwards;
 
 .reveal--slide-in-right {
     transform:translateX(100%);
-    background: blue;
     position: relative;;
     animation: slide-right 2s forwards;
     }
